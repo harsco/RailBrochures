@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>4014304 Mk6 Prod. Sw. Tamper wJupiter Ops&amp;MaintMan 2008 HTT On Track New Zealand.pdf</key>
+		<data>
+		IPU86v9MYDAbXtKm9jml4p6jeEc=
+		</data>
+		<key>4014305 Mk6 Prod. Sw. Tamper wJupiter PartsMan 2007 HTT On Track New Zealand.pdf</key>
+		<data>
+		b8FVrnekpkpnvYiACosoZsmc/Sc=
+		</data>
+		<key>5001030 Prod Drone Opn Mnl red.pdf</key>
+		<data>
+		uXHMEAoVi4vl/tWOvc+T7kGuLTs=
+		</data>
+		<key>5001032 Drone Tamper 2Jupiter2 PartsMan 2010 BNSF.pdf</key>
+		<data>
+		EbKv2GQVzJsDiscSiq8qPliWPbE=
+		</data>
+		<key>5007763_B_MKIV_HD_J2_Oper.pdf</key>
+		<data>
+		FMjpAWVFZRhHy/I8yro4vSfHdmM=
+		</data>
+		<key>5007767_C_MKIV_HD_J2_FCM_Part.pdf</key>
+		<data>
+		v7JCKjyJkK3v2CESrIExZn/HCZk=
+		</data>
+		<key>PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>Tie Inserter-Extractor TR10 Ops&amp;MaintMan 4012259.pdf</key>
+		<data>
+		xNi8WxsW65HDc5uZt5cM/7HsYEw=
+		</data>
+		<key>Tie Inserter-Extractor TR10 PartsMan 3002579.pdf</key>
+		<data>
+		E9PtqD/9DLSV3diF/rc0nIrt1ts=
+		</data>
+		<key>embedded.mobileprovision</key>
+		<data>
+		FpjEikJfANBxJgUwB56RrlAOXHU=
+		</data>
+		<key>en.lproj/InfoPlist.strings</key>
+		<data>
+		zmV6UqBSo6r1NOz798vd5O4zTBA=
+		</data>
+		<key>en.lproj/ViewController_iPad.nib</key>
+		<data>
+		MmcSc85DQGcBCu7+A657j3lpoRc=
+		</data>
+		<key>en.lproj/ViewController_iPhone.nib</key>
+		<data>
+		ZgHNPRmTg/p+U6f3Dh7bnNHfu9A=
+		</data>
+		<key>rail_logo.png</key>
+		<data>
+		xyDpbv74Nl/o6V6uEW+mIrOVq1w=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>.*</key>
+		<true/>
+		<key>Info.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>ResourceRules.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>100</real>
+		</dict>
+	</dict>
+</dict>
+</plist>

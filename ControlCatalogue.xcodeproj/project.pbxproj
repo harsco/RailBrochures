@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A44E4E915EDFDAA000CCC8A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A44E4E815EDFDAA000CCC8A /* Default.png */; };
+		3A44E4EB15EDFDB2000CCC8A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A44E4EA15EDFDB2000CCC8A /* Default@2x.png */; };
+		3A700EA715E3911E005202ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A700EA615E3911E005202ED /* UIKit.framework */; };
+		3A700EA915E3911E005202ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A700EA815E3911E005202ED /* Foundation.framework */; };
+		3A700EAB15E3911E005202ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A700EAA15E3911E005202ED /* CoreGraphics.framework */; };
+		3A700EB115E3911E005202ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A700EAF15E3911E005202ED /* InfoPlist.strings */; };
+		3A700EB315E3911E005202ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A700EB215E3911E005202ED /* main.m */; };
+		3A700EB715E3911E005202ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A700EB615E3911E005202ED /* AppDelegate.m */; };
+		3A700EBA15E3911E005202ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A700EB915E3911E005202ED /* ViewController.m */; };
+		3A700EBD15E3911E005202ED /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A700EBB15E3911E005202ED /* ViewController_iPhone.xib */; };
+		3A700EC015E3911E005202ED /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A700EBE15E3911E005202ED /* ViewController_iPad.xib */; };
+		3A700EC815E392FA005202ED /* rail_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A700EC715E392FA005202ED /* rail_logo.png */; };
+		3A700ECB15E3A3E8005202ED /* MyTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A700ECA15E3A3E8005202ED /* MyTableCell.m */; };
+		3A700ED615E3C67D005202ED /* Tie Inserter-Extractor TR10 Ops&MaintMan 4012259.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3A700ECE15E3C67D005202ED /* Tie Inserter-Extractor TR10 Ops&MaintMan 4012259.pdf */; };
+		3A700ED915E3C67D005202ED /* 5001032 Drone Tamper 2Jupiter2 PartsMan 2010 BNSF.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3A700ED115E3C67D005202ED /* 5001032 Drone Tamper 2Jupiter2 PartsMan 2010 BNSF.pdf */; };
+		3AE4AD6815E79D34005DE1A3 /* railBanner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AE4AD6715E79D34005DE1A3 /* railBanner.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A44E4E815EDFDAA000CCC8A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3A44E4EA15EDFDB2000CCC8A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3A700EA215E3911E005202ED /* Rail Manual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rail Manual.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A700EA615E3911E005202ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3A700EA815E3911E005202ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3A700EAA15E3911E005202ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3A700EAE15E3911E005202ED /* ControlCatalogue-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ControlCatalogue-Info.plist"; sourceTree = "<group>"; };
+		3A700EB015E3911E005202ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3A700EB215E3911E005202ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A700EB415E3911E005202ED /* ControlCatalogue-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ControlCatalogue-Prefix.pch"; sourceTree = "<group>"; };
+		3A700EB515E3911E005202ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A700EB615E3911E005202ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A700EB815E3911E005202ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3A700EB915E3911E005202ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3A700EBC15E3911E005202ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		3A700EBF15E3911E005202ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		3A700EC715E392FA005202ED /* rail_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rail_logo.png; sourceTree = "<group>"; };
+		3A700EC915E3A3E8005202ED /* MyTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableCell.h; sourceTree = "<group>"; };
+		3A700ECA15E3A3E8005202ED /* MyTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableCell.m; sourceTree = "<group>"; };
+		3A700ECE15E3C67D005202ED /* Tie Inserter-Extractor TR10 Ops&MaintMan 4012259.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Tie Inserter-Extractor TR10 Ops&MaintMan 4012259.pdf"; sourceTree = "<group>"; };
+		3A700ED115E3C67D005202ED /* 5001032 Drone Tamper 2Jupiter2 PartsMan 2010 BNSF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "5001032 Drone Tamper 2Jupiter2 PartsMan 2010 BNSF.pdf"; sourceTree = "<group>"; };
+		3AE4AD6715E79D34005DE1A3 /* railBanner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = railBanner.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A700E9F15E3911E005202ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A700EA715E3911E005202ED /* UIKit.framework in Frameworks */,
+				3A700EA915E3911E005202ED /* Foundation.framework in Frameworks */,
+				3A700EAB15E3911E005202ED /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A700E9715E3911E005202ED = {
+			isa = PBXGroup;
+			children = (
+				3A44E4EA15EDFDB2000CCC8A /* Default@2x.png */,
+				3A44E4E815EDFDAA000CCC8A /* Default.png */,
+				3A700EAC15E3911E005202ED /* ControlCatalogue */,
+				3A700EA515E3911E005202ED /* Frameworks */,
+				3A700EA315E3911E005202ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A700EA315E3911E005202ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A700EA215E3911E005202ED /* Rail Manual.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A700EA515E3911E005202ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A700EA615E3911E005202ED /* UIKit.framework */,
+				3A700EA815E3911E005202ED /* Foundation.framework */,
+				3A700EAA15E3911E005202ED /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A700EAC15E3911E005202ED /* ControlCatalogue */ = {
+			isa = PBXGroup;
+			children = (
+				3A700EC615E392F0005202ED /* Resources */,
+				3A700EB515E3911E005202ED /* AppDelegate.h */,
+				3A700EB615E3911E005202ED /* AppDelegate.m */,
+				3A700EB815E3911E005202ED /* ViewController.h */,
+				3A700ECE15E3C67D005202ED /* Tie Inserter-Extractor TR10 Ops&MaintMan 4012259.pdf */,
+				3AE4AD6715E79D34005DE1A3 /* railBanner.jpg */,
+				3A700ED115E3C67D005202ED /* 5001032 Drone Tamper 2Jupiter2 PartsMan 2010 BNSF.pdf */,
+				3A700EB915E3911E005202ED /* ViewController.m */,
+				3A700EBB15E3911E005202ED /* ViewController_iPhone.xib */,
+				3A700EBE15E3911E005202ED /* ViewController_iPad.xib */,
+				3A700EAD15E3911E005202ED /* Supporting Files */,
+				3A700EC915E3A3E8005202ED /* MyTableCell.h */,
+				3A700ECA15E3A3E8005202ED /* MyTableCell.m */,
+			);
+			path = ControlCatalogue;
+			sourceTree = "<group>";
+		};
+		3A700EAD15E3911E005202ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A700EAE15E3911E005202ED /* ControlCatalogue-Info.plist */,
+				3A700EAF15E3911E005202ED /* InfoPlist.strings */,
+				3A700EB215E3911E005202ED /* main.m */,
+				3A700EB415E3911E005202ED /* ControlCatalogue-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A700EC615E392F0005202ED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3A700EC715E392FA005202ED /* rail_logo.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A700EA115E3911E005202ED /* ControlCatalogue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A700EC315E3911E005202ED /* Build configuration list for PBXNativeTarget "ControlCatalogue" */;
+			buildPhases = (
+				3A700E9E15E3911E005202ED /* Sources */,
+				3A700E9F15E3911E005202ED /* Frameworks */,
+				3A700EA015E3911E005202ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ControlCatalogue;
+			productName = ControlCatalogue;
+			productReference = 3A700EA215E3911E005202ED /* Rail Manual.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A700E9915E3911E005202ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 3A700E9C15E3911E005202ED /* Build configuration list for PBXProject "ControlCatalogue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3A700E9715E3911E005202ED;
+			productRefGroup = 3A700EA315E3911E005202ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A700EA115E3911E005202ED /* ControlCatalogue */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A700EA015E3911E005202ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A700EB115E3911E005202ED /* InfoPlist.strings in Resources */,
+				3A700EBD15E3911E005202ED /* ViewController_iPhone.xib in Resources */,
+				3A700EC015E3911E005202ED /* ViewController_iPad.xib in Resources */,
+				3A700EC815E392FA005202ED /* rail_logo.png in Resources */,
+				3A700ED615E3C67D005202ED /* Tie Inserter-Extractor TR10 Ops&MaintMan 4012259.pdf in Resources */,
+				3A700ED915E3C67D005202ED /* 5001032 Drone Tamper 2Jupiter2 PartsMan 2010 BNSF.pdf in Resources */,
+				3AE4AD6815E79D34005DE1A3 /* railBanner.jpg in Resources */,
+				3A44E4E915EDFDAA000CCC8A /* Default.png in Resources */,
+				3A44E4EB15EDFDB2000CCC8A /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A700E9E15E3911E005202ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A700EB315E3911E005202ED /* main.m in Sources */,
+				3A700EB715E3911E005202ED /* AppDelegate.m in Sources */,
+				3A700EBA15E3911E005202ED /* ViewController.m in Sources */,
+				3A700ECB15E3A3E8005202ED /* MyTableCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A700EAF15E3911E005202ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A700EB015E3911E005202ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3A700EBB15E3911E005202ED /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A700EBC15E3911E005202ED /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		3A700EBE15E3911E005202ED /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A700EBF15E3911E005202ED /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A700EC115E3911E005202ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A700EC215E3911E005202ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A700EC415E3911E005202ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ControlCatalogue/ControlCatalogue-Prefix.pch";
+				INFOPLIST_FILE = "ControlCatalogue/ControlCatalogue-Info.plist";
+				PRODUCT_NAME = "Rail Manual";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3A700EC515E3911E005202ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ControlCatalogue/ControlCatalogue-Prefix.pch";
+				INFOPLIST_FILE = "ControlCatalogue/ControlCatalogue-Info.plist";
+				PRODUCT_NAME = "Rail Manual";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A700E9C15E3911E005202ED /* Build configuration list for PBXProject "ControlCatalogue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A700EC115E3911E005202ED /* Debug */,
+				3A700EC215E3911E005202ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A700EC315E3911E005202ED /* Build configuration list for PBXNativeTarget "ControlCatalogue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A700EC415E3911E005202ED /* Debug */,
+				3A700EC515E3911E005202ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A700E9915E3911E005202ED /* Project object */;
+}
